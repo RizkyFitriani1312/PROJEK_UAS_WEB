@@ -19,19 +19,19 @@
                                             id_produk   LIKE  '%$nama_dicari%'";
 }
 
-// if( isset($_POST["car"])){
-//   $nama_dicari = $_POST["keyword"];
-//   $select_sql = "SELECT tb_pembelian.id_pembelian ,tb_pembelian.tanggal, 
-//                 tb_produk.gambar, tb_user.username,tb_pembelian.jumlah, tb_pembelian.harga,
-//                 tb_produk.desk,tb_produk.kategori FROM tb_pembelian
-//                 INNER JOIN tb_user on tb_pembelian.id_user = tb_user.id_user
-//                 INNER JOIN tb_produk on tb_pembelian.id_produk = tb_produk.id_produk
-//                 WHERE (id_pembelian       LIKE '%$nama_dicari%' OR
-//                       jumlah       LIKE '%$nama_dicari%' OR
-//                       tanggal       LIKE '%$nama_dicari%' OR
-//                       harga         LIKE '%$nama_dicari%' OR
-//                       desk          LIKE '%$nama_dicari%' OR 
-//                       kategori      LIKE '%$nama_dicari%')";}
+if( isset($_POST["car"])){
+  $nama_dicari = $_POST["keyword"];
+  $select_sql = "SELECT tb_pembelian.id_pembelian ,tb_pembelian.tanggal, 
+                tb_produk.gambar, tb_user.username,tb_pembelian.jumlah, tb_pembelian.harga,
+                tb_produk.desk,tb_produk.kategori FROM tb_pembelian
+                INNER JOIN tb_user on tb_pembelian.id_user = tb_user.id_user
+                INNER JOIN tb_produk on tb_pembelian.id_produk = tb_produk.id_produk
+                WHERE (id_pembelian       LIKE '%$nama_dicari%' OR
+                      jumlah       LIKE '%$nama_dicari%' OR
+                      tanggal       LIKE '%$nama_dicari%' OR
+                      harga         LIKE '%$nama_dicari%' OR
+                      desk          LIKE '%$nama_dicari%' OR 
+                      kategori      LIKE '%$nama_dicari%')";}
   
  ?>  
 <!DOCTYPE html>
@@ -44,7 +44,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <title>Produk</title>
-    <link rel="icon" href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png">
 </head>
 <html>
 <body>
@@ -134,7 +133,6 @@
 <section id="about">
       <div class ="footer-container">
       <div class="row">
-      <img src="https://serbasepeda.com/assets/frontend/images/logo-serbasepeda.svg" alt="SerbaSepeda Logo" class="image">
         <div class ="footer-nav-section" >
           <h4 class ="heading">Serba Sepeda</h4>
           <ul class="items">
