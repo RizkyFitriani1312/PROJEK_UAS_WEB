@@ -117,7 +117,7 @@ require '..\koneksi.php';
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #26282b;
+    background-color: white;
     
 
 }
@@ -126,7 +126,7 @@ body{
  	position: fixed;
  	margin-left: 142px;
 	top: 122px;
-	color: white;
+	color: black;
 }
 .tombol{
     text-align:center;
