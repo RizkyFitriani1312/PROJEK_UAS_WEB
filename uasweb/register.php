@@ -10,7 +10,6 @@ date_default_timezone_set('asia/makassar');
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6acc3fbd7c.js" crossorigin="anonymous"></script>
     <title>Register Form</title>
-    <link rel="icon" href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png"></head>
 </head>
 <body>
     <div class="container-regis" >

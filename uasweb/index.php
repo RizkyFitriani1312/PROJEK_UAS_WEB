@@ -44,7 +44,6 @@ if( isset($_POST["car"])){
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <title>Produk</title>
-    <link rel="icon" href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png">
 </head>
 <html>
 <body>
@@ -134,7 +133,6 @@ if( isset($_POST["car"])){
 <section id="about">
       <div class ="footer-container">
       <div class="row">
-      <img src="https://serbasepeda.com/assets/frontend/images/logo-serbasepeda.svg" alt="SerbaSepeda Logo" class="image">
         <div class ="footer-nav-section" >
           <h4 class ="heading">Serba Sepeda</h4>
           <ul class="items">
