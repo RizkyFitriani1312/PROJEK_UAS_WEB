@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/"> -->
     <script src="https://kit.fontawesome.com/6acc3fbd7c.js" crossorigin="anonymous"></script>
     <title>Login Form</title>
-    <link rel="icon" href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png"></head>
-<body>
-    <div class="container-login">
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png">
+
+      
+
+
+    
+    <!-- Custom styles for this template -->
+    <!-- <link href="signin.css" rel="stylesheet"> -->
+</head>
+<body class="text-center">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- <div class="container-login">
         <div class="judul">
         <h2>Login</h2>
         </div>
@@ -33,7 +44,34 @@
             </p>
         </div>
     </div>
-    <script src= "js/slide.js"></script>
+    <script src= "js/slide.js"></script> -->
+    <div class="container">
+    <main class="form-signin w-100 m-auto">
+  <form action="" method="POST"  autocomplete="off">
+    <img class="mb-4" src="img/bootstrap-logo.svg" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
+      <input type="text"  name="username" class="form-control" id="floatingInput" placeholder="name@example.com"  required>
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control"  id="password" name="password"  placeholder="Password"  required>
+      <label for="Password">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit"   name="login" >Sign in</button>
+    </form>
+    <p class="regis">Belum punya akun? <i class="fa-solid fa-arrow-right"></i>
+    <a href="register.php">Daftar?</a>
+     </p>
+    </main>
+    </div>
 </body>
 </html>
 <?php 
@@ -152,8 +190,9 @@ h2{
   border-radius:4px;
 }
 .regis {
-    margin-top:-21px;
-    float:right;
+    margin-top:30px;
+    /* float:right; */
+    text-align: center;
 }
 .regis a{
     text-decoration:none;
@@ -173,5 +212,7 @@ h2{
     font-size:18px;
     }
 }
+/* boostrap */
+
 
 </style>

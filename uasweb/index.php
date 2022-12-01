@@ -292,6 +292,7 @@ nav ul li a {
 .container-card{
   display: flex;
   flex-wrap: wrap;
+  padding:5px;
   
 }
 .card {
@@ -301,6 +302,7 @@ nav ul li a {
   margin: auto;
   margin-bottom:35px;
   text-align: center;
+  border-radius: 100 px;
  
 }
 .gbrkue{

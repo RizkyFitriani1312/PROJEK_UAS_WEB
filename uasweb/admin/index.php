@@ -87,8 +87,8 @@ body{
 
 .cards {
    height: 400px;
-   display: flex;
-   flex-wrap: wrap;
+   /* display: flex;
+   flex-wrap: wrap; */
    justify-content: space-between;
    padding: 25px;
 
@@ -99,7 +99,8 @@ body{
     flex: 0 1 24%;
     text-align:center;
     height:115px;
-    background: #2f3631;
+  
+    background-color: green;
     color:white;
     transition: 0.3s;
     width: 40%;
@@ -120,7 +121,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: green;
+  height: 87px;
 }
 
 li {
