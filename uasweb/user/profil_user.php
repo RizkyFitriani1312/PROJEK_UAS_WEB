@@ -45,7 +45,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     </tr>
     <tr>
         <th colspan="3">
-            <img src="..\img/saw.gif" height=206px width=300px>
+            <img src="..\img/poto.jpg" height=206px width=300px>
         </th>
     </tr>
     <tr>
