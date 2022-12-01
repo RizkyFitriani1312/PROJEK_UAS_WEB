@@ -125,38 +125,34 @@ if( isset($_POST["cari"])){
       <section id="about">
       <div class ="footer-container">
       <div class="row">
-      <img src="https://serbasepeda.com/assets/frontend/images/logo-serbasepeda.svg" alt="SerbaSepeda Logo" class="image">
         <div class ="footer-nav-section" >
-          <h4 class ="heading">Serba Sepeda</h4>
+        <h4 class ="heading">Tentang Kue Tradisional</h4>
           <ul class="items">
             <li class="item"><a href="#">Tentang Kami</a></li> 
-            <li class="item"><a href="#"> Blog serba kue</a></li> 
-            <li class="item"><a href="#"> daftar brand </a></li> 
-            <li class="item"><a href="#">promosi </a></li> 
-            <li class="item"><a href="#">garansi seumur hidup</a></li> 
-            <li class="item"><a href="#">reward point & referal </a></li>
-            <li class="item"> <a href="#">Samarinda Cake Dessert </a></li> 
-            <li class="item"><a href="#">lowongan kerja </a></li> 
+            <li class="item"><a href="#"> Daftar Kue Tradisional </a></li> 
+            <li class="item"><a href="#"> Outlet Cabang </a></li> 
+            <li class="item"><a href="#"> Paket Catering</a></li> 
+            <li class="item"><a href="#"> Diskon</a></li>
+            <li class="item"> <a href="#"> Layanan Kami </a></li> 
           </ul>
       </div>
         <div class=" footer-nav-section">
-          <h4 class ="heading"> Get Help</h4>
+        <h4 class ="heading"> User Service</h4>
           <ul class =" items">  
-            <li class="item" > <a href="#">FAQ(Frequently Asked Question</a></li> 
-            <li class="item"><a href="#">syarat dan ketentuan</a></li> 
-            <li class="item"> <a href="#">konfirmasi pembayaran</a></li> 
-            <li class="item"> <a href="#">cara berbelanja</a></li> 
-            <li class="item"> <a href="#">deskripsi toko</a></li> 
-            <li class="item"><a href="#">hubungi kami</a></li> 
+            <li class="item" > <a href="#">FAQ(Frequently Asked Question</a></li>  
+            <li class="item"> <a href="#">Konfirmasi Pembayaran</a></li> 
+            <li class="item"> <a href="#">Transaksi</a></li> 
+            <li class="item"> <a href="#"> Panduan Transaksi</a></li> 
+            <li class="item"><a href="#">Konfirmasi Keluhan</a></li> 
           </ul>
         </div>
         <div class="footer-nav-section">
           <div class="media">
-          <h4 class ="heading">Follow Us</h4>
+          <h4 class ="heading">Hubungi Kami</h4>
             <ul class="media-items">
-              <li><a href="https://wa.me/6281254424739"><i class="fa1 fas fa-phone"></i> Contact</a></li>
-              <li><a href="https://twitter.com/Cnoxerr12345"><i class="fa1 fa-brands fa-twitter"></i> Twiter</a></li>
-              <li><a href="https://www.instagram.com/ash4rr/"><i class="fa1 fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href="https://wa.me/6285349783313"><i class="fa1 fas fa-phone"></i> Contact</a></li>
+              <li><a href="https://twitter.com/"><i class="fa1 fa-brands fa-twitter"></i> Twiter</a></li>
+              <li><a href="https://www.instagram.com/"><i class="fa1 fa-brands fa-instagram"></i> Instagram</a></li>
             </ul>
         </div>
       </div>
@@ -259,7 +255,7 @@ body{
   background-color: #145ba3;
   cursor: pointer;
   width: 20%;
-  margin-left: 20px;
+  margin-left: 135px;
   margin-top:10px;
   border-radius: 5px;
   font-size: 18px;
@@ -348,11 +344,10 @@ th {
   color: white;
 }
 .footer{
-  color: white;
+  color: black;
   padding:50px 30px;
   border-top: 50px solid #dee7ec;
-  background-image: linear-gradient(to left,#778899,#4a4a4a);
-  background-image: linear-gradient(to bottom,#778899,#4a4a4a);
+  background-image: linear-gradient(to bottom, #E0FFFF,#E6E6FA );
   
 }
 .footer-container{
@@ -383,206 +378,13 @@ th {
 .footer-nav-section ul li a{
   font-size:16px;
   text-decoration:none;
-  color: #ffffff;
+  color: #000000;
   font-weight:300;
   color:#bbbb;
   display:block;
 }
 .footer-nav-section ul li a:hover{
-  color: #ffffff;
-  padding-left:10px;
+  color: #000000;
+  padding-right:10px;
 }
-/* responsive
-@media (max-width: 638px) {
-  .masukan {  
-  border: none;
-  outline: 0;
-  padding: 10px;
-  color: white;
-  background-color: #145ba3;
-  cursor: pointer;
-  margin-left: -15px;
-  font-size: 18px;
-}
-}
-@media (max-width: 757px) {
-  .masukan {  
-  border: none;
-  outline: 0;
-  padding: 10px;
-  color: white;
-  background-color: #145ba3;
-  cursor: pointer;
-  margin-left: -15px;
-  font-size: 18px;
-}
-}
-
-@media (max-width: 1021px) {
-  .masukan {  
-  border: none;
-  outline: 0;
-  padding: 10px;
-  color: white;
-  background-color: #145ba3;
-  cursor: pointer;
-  margin-left: -15px;
-  font-size: 18px;
-}
-}
-@media (min-width: 1194px) {
-  .logo{
-    margin-top: -39px;
-    margin-left:-22px;
-  }
-}
-@media (min-width: 377px) {
-  .logo{
-    margin-top: -99px;
-    margin-left:-22px;
-  }
-
-  .info{
-    font-size:50px;
-  padding-left:22px;
-  margin-top:50px;
-
-  }
-  .masukan {  
-  border: none;
-  outline: 0;
-  padding: 10px;
-  color: white;
-  background-color: #145ba3;
-  cursor: pointer;
-  margin-left: -12px;
-  font-size: 18px;
-}
-
-}
-
-@media (min-width: 916px) {
-  .logo{
-    margin-top: -30px;
-    margin-left:12px;
-  }   
-}
-@media (min-width: 529px) {
-  .logo{
-    margin-top: -42px;
-    margin-left:12px;
-  }   
-}
-
-@media(max-width:767px){
-  .footer-nav-section {
-  width: 50%;
-  margin-bottom:30px;
-
-  }
-}
-@media(max-width:574px){
-  .footer-nav-section {
-  width: 100%;
-  margin-bottom:30px;
-
-  }
-}
-@media (max-width: 638px) {
-  .srch{
-    margin-left: -15px;
-  }
-  .create{
-    /* margin-left: -15px; */
-    /* font-size:16px;;
-    padding: 5px;
-  } */
-
-  /* .header-logo2{
-    font-family: 'Nunito', sans-serif;
-    font-size:20px;
-    float: left;
-    height : 30px;
-    color:black;
-    color:#505091;
-  font-family: 'Cormorant', serif;
-  }
-} */
-/* @media (max-width: 757px) {
-  .srch{
-    margin-left: -15px;
-  }
-  .create{
-    /* margin-left: -15px; */
-    /* padding: 5px;
-    font-size:16px;; */
-  /* }
-  .header-logo2{
-    font-family: 'Nunito', sans-serif;
-    font-size:20px;
-    float: left;
-    height : 30px;
-    padding: 10px 30px;
-    color:black;
-    color:#505091;
-  font-family: 'Cormorant', serif;
-  }
-} */ */
-/* @media (max-width: 1021px) {
-  .srch{
-    margin-left: -15px;
-  }
-  .create{
-    /* margin-left: -15px; */
-    /* font-size:16px;;
-    padding: 5px;
-  }
-
-  .header-logo2{
-    font-family: 'Nunito', sans-serif;
-    font-size:20px;
-    float: left;
-    height : 30px;
-    color:black;
-    color:#505091;
-  font-family: 'Cormorant', serif;
-  }} */ */
-/* @media (min-width: 1194px) {
-  .srch{
-    margin-left: -15px;
-  }
-  .create{
-    /* margin-left: -15px; */
-    /* padding: 5px;
-    font-size:16px;;
-  }
-  .header-logo2{
-    font-family: 'Nunito', sans-serif;
-    font-size:20px;
-    float: left;
-    height : 30px;
-    color:black;
-    color:#505091;
-  font-family: 'Cormorant', serif;
-  }
-} */ */
-/* @media (min-width: 377px) {  
-  .srch{
-    margin-left: -15px;
-  }
-  .create{
-    /* margin-left: -15px; */
-    /* padding: 5px;
-    font-size:16px;;
-  } */
-  /* .header-logo2{
-  padding-left:22px;
-  font-family: 'Nunito', sans-serif;
-    font-size:20px;
-    float: left;
-    height : 30px;
-    color:black;
-    color:#505091;
-  font-family: 'Cormorant', serif;
-  }} */ */ */
 </style>
