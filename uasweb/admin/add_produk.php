@@ -79,7 +79,7 @@ require '..\koneksi.php';
                 </td>
             </tr>
             <tr>
-                <td>Desk</td>
+                <td>Deskripsi</td>
                 <td>
                 <input type="text" name="deskripsi" placeholder="Deskripsi" required>
             </td>
